@@ -1,6 +1,6 @@
 # 读文献（du-wen-xian）
 
-**Reading Literature in Humanities & Social Sciences** — 一个Skill：读、拆解、精读、分析学术文献，并输出结构化精读报告（信息无损、逐节覆盖、零幻觉）的完整执行协议。当前版本 **v1.2.0**。
+**Reading Literature** — 一个Skill：拆解、精读、分析学术文献，并输出结构化精读报告（信息无损、逐节覆盖、零幻觉）的完整执行协议。当前版本 **v1.2.0**。
 
 ## 它做什么
 
