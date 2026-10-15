@@ -23,7 +23,7 @@
 - **零幻觉铁律**：精读层严格限于所读文档既有内容，不编造、不推测作者动机；导读层（文献外背景）一律经WebSearch核实并明示标注。
 - **个性化资产对接**：基于使用者研究画像，逐条标注每个批评点 / 遗漏点 / 待探讨问题可对接自己的哪条研究线、哪篇稿件。
 
-## 安装（Codex; WorkBuddy）
+## 安装（Codex; WorkBuddy; Zcode; Trae）
 在对话中输入：
 帮我安装这个skill: https://github.com/BenjaminXi66/du-wen-xian
 
