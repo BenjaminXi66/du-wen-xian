@@ -1,6 +1,6 @@
 # 读文献（du-wen-xian）
 
-**Reading Literature** — 一个Skill：拆解、精读、分析学术文献，并输出结构化精读报告（信息无损、逐节覆盖、零幻觉）的完整执行协议。当前版本 **v1.2.1**（交付物为纯文本Markdown）。
+**Reading Literature** — 一个Skill：拆解、精读、分析学术文献，并输出结构化精读报告（信息无损、逐节覆盖、零幻觉）的完整执行协议。当前版本 **v1.3.0**（交付物为纯文本Markdown；v1.3 新增论文质量评价模式）。
 
 ## 它做什么
 
@@ -15,6 +15,7 @@
 
 ## 功能亮点
 
+- **论文质量评价模式（v1.3.0 新增）**：当用户要求评审、打分、研判稿件质量或写审稿意见时，按论文类型路由到五大评价框架——理论贡献（Whetten 1989 五要素+评审七问）、定量因果推断检查项（Gangl 2010：识别高于估计、目标量匹配、协变量审查、各估计方法失效方式）、质性研究八项大帐篷标准（Tracy 2010）、质性报告完整性 SRQR 21 条（O'Brien et al. 2014）、评审者实际评判标准与学科文化差异（Lamont 2009）；输出总评、分框架检查表、红线问题单、修改优先级清单（P0/P1/P2）与覆盖自查。
 - **全文领读协议（v1.2.0 新增）**：ai会先通读全文一遍，依据使用者过往对话历史判断其知识背景与研究偏好，对引言、文献回顾、研究设计、实证分析、讨论与结论五大结构部分逐一挑选关键必读段落领读——领读一遍后，即使不读原文全文也能基本掌握文献内容、不遗漏知识点。
 - **三层精读法**：结构读 → Keshav 三遍法（含五C自检）→ 分层精读。
 - **阅读密码表（Shon 14密码）**：WTD / SPL / CPL / GAP / RAT / ROF / RCL / RTC / WTDD / RFW / POC / MOP / RPP / WIL，逐句标注论证功能，配RCOS整合表。
@@ -30,9 +31,10 @@
 ## 目录结构
 
 ```
-├── SKILL.md              # 技能主协议（铁律、精读顺序、全文领读协议、九步执行流程）
-├── chapters/             # 12章方法论（三层精读法、阅读密码表、论证解剖、
-│                         # 来源甄别、笔记组织、专著精读、引用规范、报告模板、日课、导读层协议）
+├── SKILL.md              # 技能主协议（铁律、精读顺序、全文领读协议、九步执行流程、评审模式）
+├── chapters/             # 13章方法论（三层精读法、阅读密码表、论证解剖、
+│                         # 来源甄别、笔记组织、专著精读、引用规范、报告模板、日课、导读层协议、
+│                         # 论文质量评价规则）
 ├── references/
 │   └── sources.md        # 七份方法来源的完整书目与取材映射
 ├── glossary.md           # 术语与阅读密码速查
@@ -42,7 +44,7 @@
 
 ## 方法来源
 
-Wayne C. Booth 等《The Craft of Research》(4th ed.)、Phillip C. Shon《会读才会写》、S. Keshav《How to Read a Paper》、Frederique Laubepin《How to Read (and Understand) a Social Science Journal Article》、Greta Krippner《How to Read a (Quantitative) Journal Article》(ASA)、CASP Qualitative Checklist (2024)、董晨宇《拆论文》。完整书目见 [references/sources.md](references/sources.md)。
+Wayne C. Booth 等《The Craft of Research》(4th ed.)、Phillip C. Shon《会读才会写》、S. Keshav《How to Read a Paper》、Frederique Laubepin《How to Read (and Understand) a Social Science Journal Article》、Greta Krippner《How to Read a (Quantitative) Journal Article》(ASA)、CASP Qualitative Checklist (2024)、董晨宇《拆论文》；v1.3 评审模式新增：Whetten (AMR 1989)、Gangl (ARS 2010)、Tracy (QI 2010)、O'Brien et al. (SRQR, Academic Medicine 2014)、Lamont《How Professors Think》(Harvard UP 2009)。完整书目见 [references/sources.md](references/sources.md)。
 
 ## 许可证
 

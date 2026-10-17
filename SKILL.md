@@ -1,13 +1,13 @@
 ---
 name: renwen-sheke-du-wenxian
-version: 1.2.1
+version: 1.3.0
 display_name: 人文社科读文献
 display_name_en: Reading Literature in Humanities & Social Sciences
 category: research
 author: 社会学百宝库
-description: 人文社科（社会学为主）论文与专著的精读方法论与执行协议。当用户要求读、拆解、精读、分析一篇论文或一本专著（给 PDF/文本/DOI/引文），或要求产出结构化阅读结果、评审意见、可引用的读书笔记时使用。执行顺序：标题→导语（知识网络定位+作者谱系）→摘要→正文关键段落，每段按"原文+译文+解析"三段式精读，全程纯文本（Markdown）输出、不生成思维导图或任何图片文件。内含三层精读法、阅读密码表（ROF/SPL/CPL/GAP/RAT/WTD/WTDD/RCL/RTC/RFW/POC/MOP/RPP/WIL）、论证五要素解剖（claim/reasons/evidence/warrant/acknowledgment&response）、定量论文精读十一条、质性研究质量评估（CASP 十问）、来源可信度十条、笔记批注与信息组织（RCOS）、引用规范与抄袭风险、学术术语中英文对照与分析（面向零背景读者）、精读后约 800 字提炼与思考问题、基于使用者研究画像的个性化"对我可用的资产"。零幻觉铁律：精读层严格限于所读文档既有内容；导读层外部信息须核实并明示来源。v1.2 新增**全文领读协议**：先通读全文一遍，依据使用者过往对话判断其知识背景与研究偏好，对引言（研究背景与问题的提出）、文献回顾、研究设计、实证分析、讨论与结论各部分挑选关键必读段落，按"外文原文+中文译文+详细解析"领读，保证使用者不读原文全文也能基本掌握文献内容、不遗漏知识点；输出前逐条自查，内容严格限于文献既有内容、不编造、不加文献之外的内容。关键词：读论文、精读、拆论文、领读、文献阅读、论文笔记、文献综述、阅读密码、批判性阅读、读文献、how to read a paper、close reading。
-description_zh: 人文社科读文献。读、拆解、精读、分析论文或专著，并输出结构化精读报告（信息无损、逐节覆盖、零幻觉）的执行协议：三层精读法 + 阅读密码表 + 论证五要素解剖 + 定量十一条 + 质性 CASP 十问 + 来源甄别 + 笔记组织 + 引用规范。
-description_en: 'Close-reading protocol for humanities & social science (esp. sociology) papers and monographs. Produces structured, information-lossless reading reports strictly limited to the source document''s own content: three-pass method, reading codes (Shon), five-element argument anatomy (Booth), 11-step quantitative reading (Krippner), CASP 10-question appraisal, source evaluation, RCOS note organization, and citation integrity.'
+description: 人文社科（社会学为主）论文与专著的精读方法论与执行协议。当用户要求读、拆解、精读、分析一篇论文或一本专著（给 PDF/文本/DOI/引文），或要求产出结构化阅读结果、评审意见、可引用的读书笔记时使用。执行顺序：标题→导语（知识网络定位+作者谱系）→摘要→正文关键段落，每段按"原文+译文+解析"三段式精读，全程纯文本（Markdown）输出、不生成思维导图或任何图片文件。内含三层精读法、阅读密码表（ROF/SPL/CPL/GAP/RAT/WTD/WTDD/RCL/RTC/RFW/POC/MOP/RPP/WIL）、论证五要素解剖（claim/reasons/evidence/warrant/acknowledgment&response）、定量论文精读十一条、质性研究质量评估（CASP 十问）、来源可信度十条、笔记批注与信息组织（RCOS）、引用规范与抄袭风险、学术术语中英文对照与分析（面向零背景读者）、精读后约 800 字提炼与思考问题、基于使用者研究画像的个性化"对我可用的资产"。零幻觉铁律：精读层严格限于所读文档既有内容；导读层外部信息须核实并明示来源。v1.2 新增**全文领读协议**：先通读全文一遍，依据使用者过往对话判断其知识背景与研究偏好，对引言（研究背景与问题的提出）、文献回顾、研究设计、实证分析、讨论与结论各部分挑选关键必读段落，按"外文原文+中文译文+详细解析"领读，保证使用者不读原文全文也能基本掌握文献内容、不遗漏知识点；输出前逐条自查，内容严格限于文献既有内容、不编造、不加文献之外的内容。v1.3 新增**论文质量评价模式（评审模式）**：当用户要求评审、打分、研判稿件质量或写审稿意见时，按 ch13 五大框架评价——理论贡献（Whetten 1989）、定量因果推断检查项（Gangl 2010）、质性研究八项大帐篷标准（Tracy 2010）、质性报告完整性 SRQR 21 条（O'Brien et al. 2014）、评审者实际评判标准与学科差异（Lamont 2009）；输出分框架检查表、红线问题单、修改优先级清单与覆盖自查。关键词：读论文、精读、拆论文、领读、文献阅读、论文笔记、文献综述、阅读密码、批判性阅读、读文献、how to read a paper、close reading、评审、审稿、论文质量、评价论文、打分、reviewer、manuscript evaluation、SRQR、qualitative quality、causal inference、theoretical contribution。
+description_zh: 人文社科读文献。读、拆解、精读、分析论文或专著，并输出结构化精读报告（信息无损、逐节覆盖、零幻觉）的执行协议：三层精读法 + 阅读密码表 + 论证五要素解剖 + 定量十一条 + 质性 CASP 十问 + 来源甄别 + 笔记组织 + 引用规范。v1.3 新增评审模式：评审、打分、研判论文质量时按五大框架输出检查表与修改优先级（Whetten 理论贡献 / Gangl 因果推断 / Tracy 质性八标准 / SRQR 报告完整性 / Lamont 评审者视角）。
+  description_en: 'Close-reading protocol for humanities & social science (esp. sociology) papers and monographs. Produces structured, information-lossless reading reports strictly limited to the source document''s own content: three-pass method, reading codes (Shon), five-element argument anatomy (Booth), 11-step quantitative reading (Krippner), CASP 10-question appraisal, source evaluation, RCOS note organization, and citation integrity. v1.3 adds a review mode: manuscript evaluation via Whetten (theoretical contribution), Gangl (causal inference), Tracy (8 big-tent qualitative criteria), SRQR (21 reporting standards), and Lamont (how reviewers actually judge).'
 agent_created: true
 ---
 
@@ -15,7 +15,7 @@ agent_created: true
 
 # 人文社科读文献
 
-**方法来源**：Wayne C. Booth 等《The Craft of Research》(4th ed.)、Phillip C. Shon《会读才会写：导向论文写作的文献阅读技巧》、S. Keshav《How to Read a Paper》、Frederique Laubepin《How to Read (and Understand) a Social Science Journal Article》、Greta Krippner《How to Read a (Quantitative) Journal Article》(ASA)、CASP Qualitative Checklist (2024)、董晨宇《拆论文：从精读中领悟学术写作》。
+**方法来源**：Wayne C. Booth 等《The Craft of Research》(4th ed.)、Phillip C. Shon《会读才会写：导向论文写作的文献阅读技巧》、S. Keshav《How to Read a Paper》、Frederique Laubepin《How to Read (and Understand) a Social Science Journal Article》、Greta Krippner《How to Read a (Quantitative) Journal Article》(ASA)、CASP Qualitative Checklist (2024)、董晨宇《拆论文：从精读中领悟学术写作》；v1.3 评审模式新增：David A. Whetten "What Constitutes a Theoretical Contribution?" (AMR 1989)、Markus Gangl "Causal Inference in Sociological Research" (ARS 2010)、Sarah J. Tracy "Qualitative Quality: Eight 'Big-Tent' Criteria" (QI 2010)、O'Brien et al. "Standards for Reporting Qualitative Research" (Academic Medicine 2014, SRQR)、Michele Lamont《How Professors Think》(Harvard UP 2009)。
 **完整书目与取材映射**：[references/sources.md](references/sources.md)
 
 ---
@@ -43,6 +43,7 @@ agent_created: true
 - 理论/概念论文 → 走 ch08 的 ROA（Results of Argumentation）路径
 - 专著 → 走 ch08（结构读 → 分层精读 → 引文追踪）
 - 综述文章 → 走 ch06 的综述定位法
+- **评审/打分/研判稿件质量 → 走 ch13 评审模式**（按论文类型路由到 Whetten / Gangl / Tracy+SRQR 框架，辅以 Lamont 评审者视角）
 
 ### 铁律四：区分"精读层"与"导读层"——两套内容，两套规矩
 本技能的报告由两层构成，边界必须物理隔离（详细协议见 [ch12](chapters/ch12-导读层协议.md)）：
@@ -105,6 +106,18 @@ agent_created: true
 3. 五大结构部分是否各自至少领读了关键段落？（原文没有的已注明"原文无此部分"）
 4. 对照第 3 步的章节功能地图逐项核：是否遗漏了影响理解的关键定义、数据、论断？
 5. 不确定、抽取残缺、表述含糊处是否已照实标注 `[待核：<具体不确定什么>]`？
+
+---
+
+## 论文质量评价模式（v1.3 新增——触发词：评审、审稿、打分、研判稿件质量、修改意见）
+
+当用户要求**评价、评审、打分一篇论文/稿件**（而非精读它）时，切换到评审模式，协议见 [ch13](chapters/ch13-论文质量评价规则.md)：
+
+1. **定类型选框架**（按 ch13.0 路由表）：理论/概念论文 → Whetten (1989) 五要素 + 七问；定量实证论文 → Gangl (2010) 因果推断检查项；质性实证论文 → Tracy (2010) 八项大帐篷标准 + SRQR 21 条报告完整性。
+2. **逐条检查落实位置**：框架每一条都在论文中找落实位置（页码）；找不到记"未落实"，不得编造（铁律一全强度适用）。对被评论文的每条批评必须落到具体位置；框架本身注明来源。
+3. **区分两类问题**：研究质量（Tracy/Gangl/Whetten）与报告完整性（SRQR）——缺项 ≠ 研究差，但核心条目缺失（如证据链接、局限）须严肃指出。
+4. **评审者视角校验**（Lamont 2009）：按六项正式标准（significance/originality/clarity/methods/feasibility/quality）做现实研判；用学科文化差异解释评审分歧来源；提示非稿件因素（homophily、taste、比较性评价）。
+5. **输出**（ch13.6.2 骨架）：总评（照实说，不软化）→ 分框架检查表 → 红线问题单 → 评审者模拟 → 修改优先级清单（P0/P1/P2）→ 覆盖自查表。要求打分时按 ch13.6.3 口径：分项档位 + 总分区间，不发明框架外维度；学理标准与评审现实两个读数分开报，不折中。
 
 ---
 
@@ -219,6 +232,7 @@ agent_created: true
 | 10 | [ch10-精读报告模板.md](chapters/ch10-精读报告模板.md) | 报告模板全文 + 填写规则 + 覆盖自查表 | 综合 |
 | 11 | [ch11-读文献日课.md](chapters/ch11-读文献日课.md) | 三种文献三种阅读、跟随期刊/研究者/关键词、文献间三种关系、积极阅读十二字诀、笔记三原则、整理三目标 | 董晨宇 |
 | 12 | [ch12-导读层协议.md](chapters/ch12-导读层协议.md) | 导语写作（知识网络定位+作者谱系）、画像卡扫描、术语对照表、800 字提炼与思考问题、个性化资产对接 | v1.1 新增 |
+| 13 | [ch13-论文质量评价规则.md](chapters/ch13-论文质量评价规则.md) | 评审模式：理论贡献评价（Whetten 五要素+七问）、定量因果推断检查项（Gangl）、质性八项大帐篷标准（Tracy）、SRQR 21 条、评审者实际标准与学科差异（Lamont）、综合评分框架 | v1.3 新增 |
 
 ## 支撑文件
 - [glossary.md](glossary.md) — 术语与密码速查
@@ -230,7 +244,8 @@ agent_created: true
 
 ## 范围与限制
 
-- 本技能覆盖"如何读"的方法论与执行协议；精读层方法论内容全部来自上列七份文档，**不提供超出这些文档的文献观点、领域知识或数据**。
+- 本技能覆盖"如何读"（ch01–ch12）与"如何评"（ch13 评审模式）的方法论与执行协议；精读层方法论内容全部来自上列方法来源文档，**不提供超出这些文档的文献观点、领域知识或数据**。
+- ch13 的评价规则严格取材于五份来源文档（Whetten 1989 / Gangl 2010 / Tracy 2010 / SRQR 2014 / Lamont 2009）；对被评论文的批评必须落到论文文本的具体位置，框架引用注明来源；学理标准与评审现实（Lamont）分开呈现，不互相冒充。
 - 导读层（ch12，v1.1 新增）是**唯一**允许使用文档外信息的模块，且受铁律四约束：外部事实必须核实、明示来源、不编造、不揣测动机。
 - 本技能不做文献真伪核验（引用真实性另由 reference-checker 类工具完成）、不做独立翻译任务（"译文"仅是精读三段式的组成部分）。
 - 报告中的"推论"栏位受铁律一约束：无文本内依据即留空。
