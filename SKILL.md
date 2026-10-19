@@ -1,13 +1,13 @@
 ---
 name: renwen-sheke-du-wenxian
-version: 1.6.0
+version: 1.7.0
 display_name: 人文社科读文献
 display_name_en: Reading Literature in Humanities & Social Sciences
 category: research
 author: 社会学百宝库
-description: 人文社科（社会学为主）论文与专著的精读方法论与执行协议。当用户要求读、拆解、精读、分析一篇论文或一本专著（给 PDF/文本/DOI/引文）、带我通读摘要和关键段落、输出结构化阅读结果或评审意见时使用。**v1.6 起为强制三选一**：本 skill 有三条功能——①输出结构化结果（快速了解文章及作者信息）；②通读论文（带读摘要、关键段落和结论，原文+译文+解析）；③评估论文质量（评审框架+检查表+修改优先级）。**触发规则：只要本技能被加载并拿到要读的文献——无论用户什么都不输入、输入"速览该论文"、输入"带我读这篇论文"、还是输入其他任何话语——一律先输出三选一菜单，由用户亲自输入数字 1/2/3 选择，AI 不允许自动默认判断选哪种读论文方式**；一次只出一轨（上下文限制无法一次输出三个结果）。内含三层精读法、阅读密码表（ROF/SPL/CPL/GAP/RAT/WTD/WTDD/RCL/RTC/RFW/POC/MOP/RPP/WIL）、论证五要素解剖（claim/reasons/evidence/warrant/acknowledgment&response）、定量论文精读十一条、质性研究质量评估（CASP 十问）、来源可信度十条、笔记批注与信息组织（RCOS）、引用规范与抄袭风险、学术术语中英文对照与分析（面向零背景读者）、约 800 字提炼与思考问题、基于使用者研究画像的个性化"对我可用的资产"。段落锚点 PID 体系（A摘要/I引言/L文献回顾/M研究设计/R实证/D讨论/O其他）用于轨间衔接与评审证据定位。零幻觉铁律：精读层严格限于所读文档既有内容；导读层外部信息须核实并明示来源。轨3 按论文类型路由五大评审框架：理论贡献（Whetten 1989）、定量因果推断检查项（Gangl 2010）、质性研究八项大帐篷标准（Tracy 2010）、质性报告完整性 SRQR 21 条（O'Brien et al. 2014）、评审者实际评判标准与学科差异（Lamont 2009）；输出总评、分框架检查表、红线问题单、修改优先级清单（P0/P1/P2）。关键词：读论文、精读、拆论文、带我读、通读、领读、逐段讲、原文译文解析、摘要和关键段落、结构化输出、速览、快速了解、作者信息、文献阅读、论文笔记、精读报告、文献综述、阅读密码、批判性阅读、读文献、how to read a paper、close reading、评审、审稿、论文质量、评价论文、打分、reviewer、manuscript evaluation、SRQR、qualitative quality、causal inference、theoretical contribution。
-description_zh: 人文社科读文献。读、拆解、精读、分析论文或专著的执行协议（信息无损、零幻觉）：三层精读法 + 阅读密码表 + 论证五要素解剖 + 定量十一条 + 质性 CASP 十问 + 来源甄别 + 笔记组织 + 引用规范。**v1.6 强制三选一**：①结构化结果（快速了解文章及作者信息）②通读论文（带读摘要、关键段落和结论）③评估论文质量。无论用户输入什么（含"速览""带我读"）或不输入，拿到文献一律先出三选一菜单，由用户亲自输入数字 1/2/3 选择，AI 不自动判断；一次只出一轨。评审按五大框架输出检查表与修改优先级（Whetten 理论贡献 / Gangl 因果推断 / Tracy 质性八标准 / SRQR 报告完整性 / Lamont 评审者视角）。
-description_en: 'Close-reading protocol for humanities & social science (esp. sociology) papers and monographs: three-pass method, reading codes (Shon), five-element argument anatomy (Booth), 11-step quantitative reading (Krippner), CASP 10-question appraisal, source evaluation, RCOS note organization, and citation integrity. Since v1.6 the skill enforces a MANDATORY triage menu: whenever it loads with a paper — no matter whether the user types nothing, "give me a quick overview", "read it with me", or anything else — the AI must first output the three-option menu and wait for the user to manually pick 1/2/3: (1) structured overview — quick grasp of the paper and its author; (2) guided reading — abstract, key passages and conclusion in source text + translation + analysis; (3) quality evaluation via Whetten, Gangl, Tracy, SRQR, and Lamont. The AI must NEVER auto-select a reading mode; one track per turn due to context limits.'
+description: 人文社科（社会学为主）论文与专著的精读方法论与执行协议。当用户要求读、拆解、精读、分析一篇论文或一本专著（给 PDF/文本/DOI/引文）、带我通读摘要和关键段落、输出结构化阅读结果或评审意见时使用。**v1.6 起为强制三选一**：本 skill 有三条功能——①输出结构化结果（快速了解文章及作者信息：字段式身份卡含**引用优先级 A/B/C 评级**、本文核心观点约 200 字（引原文须外文+中文对照）、核心研究问题（核心+子问题）、作者的研究脉络、研究设计六要点、关键发现、研究局限性、研究创新性、后续推荐阅读文献）；②通读论文（带读摘要、关键段落和结论，原文+译文+解析）；③评估论文质量（评审框架+检查表+修改优先级）。**触发规则：只要本技能被加载并拿到要读的文献——无论用户什么都不输入、输入"速览该论文"、输入"带我读这篇论文"、还是输入其他任何话语——一律先输出三选一菜单，由用户亲自输入数字 1/2/3 选择，AI 不允许自动默认判断选哪种读论文方式**；一次只出一轨（上下文限制无法一次输出三个结果）。内含三层精读法、阅读密码表（ROF/SPL/CPL/GAP/RAT/WTD/WTDD/RCL/RTC/RFW/POC/MOP/RPP/WIL）、论证五要素解剖（claim/reasons/evidence/warrant/acknowledgment&response）、定量论文精读十一条、质性研究质量评估（CASP 十问）、来源可信度十条、笔记批注与信息组织（RCOS）、引用规范与抄袭风险、学术术语中英文对照与分析（面向零背景读者）、约 800 字提炼与思考问题、基于使用者研究画像的个性化"对我可用的资产"。段落锚点 PID 体系（A摘要/I引言/L文献回顾/M研究设计/R实证/D讨论/O其他）用于轨间衔接与评审证据定位。零幻觉铁律：精读层严格限于所读文档既有内容；导读层外部信息须核实并明示来源。轨3 按论文类型路由五大评审框架：理论贡献（Whetten 1989）、定量因果推断检查项（Gangl 2010）、质性研究八项大帐篷标准（Tracy 2010）、质性报告完整性 SRQR 21 条（O'Brien et al. 2014）、评审者实际评判标准与学科差异（Lamont 2009）；输出总评、分框架检查表、红线问题单、修改优先级清单（P0/P1/P2）。关键词：读论文、精读、拆论文、带我读、通读、领读、逐段讲、原文译文解析、摘要和关键段落、结构化输出、速览、快速了解、作者信息、文献阅读、论文笔记、精读报告、文献综述、阅读密码、批判性阅读、读文献、how to read a paper、close reading、评审、审稿、论文质量、评价论文、打分、reviewer、manuscript evaluation、SRQR、qualitative quality、causal inference、theoretical contribution。
+description_zh: 人文社科读文献。读、拆解、精读、分析论文或专著的执行协议（信息无损、零幻觉）：三层精读法 + 阅读密码表 + 论证五要素解剖 + 定量十一条 + 质性 CASP 十问 + 来源甄别 + 笔记组织 + 引用规范。**v1.6 强制三选一**：①结构化结果（身份卡含引用优先级、核心观点、核心研究问题、作者脉络、研究设计、关键发现、局限、创新、推荐阅读）②通读论文（带读摘要、关键段落和结论）③评估论文质量。无论用户输入什么（含"速览""带我读"）或不输入，拿到文献一律先出三选一菜单，由用户亲自输入数字 1/2/3 选择，AI 不自动判断；一次只出一轨。评审按五大框架输出检查表与修改优先级（Whetten 理论贡献 / Gangl 因果推断 / Tracy 质性八标准 / SRQR 报告完整性 / Lamont 评审者视角）。
+description_en: 'Close-reading protocol for humanities & social science (esp. sociology) papers and monographs: three-pass method, reading codes (Shon), five-element argument anatomy (Booth), 11-step quantitative reading (Krippner), CASP 10-question appraisal, source evaluation, RCOS note organization, and citation integrity. Since v1.6 the skill enforces a MANDATORY triage menu: whenever it loads with a paper — no matter whether the user types nothing, "give me a quick overview", "read it with me", or anything else — the AI must first output the three-option menu and wait for the user to manually pick 1/2/3: (1) structured overview — quick grasp of the paper and its author (field-style identity card with a personalized citation-priority grade A/B/C, ~200-word core argument with bilingual quotations, core research question + sub-questions, author''s research lineage, six-point research design, key findings, limitations, novelty, recommended further readings); (2) guided reading — abstract, key passages and conclusion in source text + translation + analysis; (3) quality evaluation via Whetten, Gangl, Tracy, SRQR, and Lamont. The AI must NEVER auto-select a reading mode; one track per turn due to context limits.'
 agent_created: true
 ---
 
@@ -252,26 +252,27 @@ agent_created: true
 
 **导读层（文档外信息，统一标注来源与核实状态）**
 0. **导语**：文献的知识网络定位（细分领域/流派、对话对象、里程碑地位及依据）+ 作者知识谱系（师承、流派、代表作）
-0a. **画像卡**：使用者研究线归纳（3–6 条，依据过往对话，标注"以用户现况为准"）
+0a. **画像卡**：使用者研究线归纳（3–6 条，依据过往对话，标注"以用户现况为准"）——同时供第 1 节"引用优先级"评级与第 10 节资产对接使用
 
-**精读层（文档内信息，铁律一全强度适用；位置一律给页码或 PID）**
+**主体（v1.7 结构；文档内信息受铁律一约束，位置给页码或 PID；第 4、9 节属导读层须核实）**
 
-1. **文献身份卡**：书目信息 + 类型 + 页数篇幅
-2. **核心主张**：一句话 claim（用原文措辞，标页码）
-3. **研究问题的结构**：condition + consequence（Booth ch4/ch16 两段式）
-4. **文献对话位置**：SPL → CPL → GAP → RAT 逐条列，附页码
-5. **论证链条解剖**：claim / reasons / evidence / warrant / acknowledge & response 五要素表
-6. **数据与方法概要**：定量走变量—测量—模型—稳健性；质性走样本—资料—分析策略—饱和
-7. **发现（ROF）逐条**：含方向、量级、显著性（定量）或范畴与例证（质性）
-8. **与既有文献的关系**：RCL（一致）与 RTC（相反）分列
-9. **作者自陈局限与 RFW**：逐条
-10. **术语中英文对照**（精简版 5–8 条）：中文译名 | 英文原文 | 通俗解释 | 在本文中的角色
-11. **对我可用的资产**：POC / MOP / RPP / WIL 四栏 + **研究线对接列**（个性化，对接画像卡）
+1. **文献身份卡**：**字段×内容表格**——标题 / 作者（含机构）/ 期刊（含开放获取）/ DOI（含收稿-修回-录用时间线）/ 页数·字数 / 关键词（原文+中文译名）/ **引用优先级**（A 必引 / B 建议引用 / C 一般 + 一句话个性化理由，对接画像卡；评级照实说，不吹不贬）
+2. **本文核心观点**：约 200 字连贯中文概括；引用文章内原文处必须**外文原文+中文译文对照**（逐字+页码）
+3. **本文核心研究问题**：核心问题（一句话，优先作者原话）+ 子问题逐条；**文中未明示的子问题不得编造**
+4. **作者的研究脉络**（导读层，WebSearch 核实）：此前方向与 2–4 部代表作 / 本文在其学术轨迹中的位置（承接/转向/新开）/ 与本文直接相关的前作；查不到照实写
+5. **研究设计**：**方法类型六要点表**（认识论与本体论（哲学假设）／理论视角／研究策略／资料收集方法／资料分析方法／呈现与质量标准——原文明示才写，未明示照实注明，哲学假设不脑补）+ 数据来源 + 抽样方法 + 样本量 + 统计模型（定量；质性写"不适用"改给分析路线）
+6. **关键发现（ROF）逐条**：含方向、量级、显著性（定量）或范畴与例证（质性）；数字照抄
+7. **研究局限性**：作者自陈局限逐条（标位置；没写就写"作者未自陈局限"）+ 文本内可见的其他局限（冠"推论"标识并挂位置）
+8. **研究创新性**：作者自陈贡献逐条 + 相对既有文献的新颖点（须有文本内或已核实导读层依据；照实说，不吹不贬）
+9. **后续推荐阅读文献**（3–6 条）：优先引文追踪自本文参考文献，外部补充须核实；每条一句话"为什么读"；零虚构、不凑数
+10. **对我可用的资产**：POC / MOP / RPP / WIL 四栏 + **研究线对接列**（个性化，对接画像卡）
+11. **术语中英文对照**（精简版 5–8 条）：中文译名 | 英文原文 | 通俗解释 | 在本文中的角色
 12. **依据文本内证据的推论**（该栏可空；不得写无依据内容）
-13. **可引用原句库**：3–10 条原文句子（含页码）
+13. **可引用原句库**：3–10 条（外文句子给原文+中文译文对照，含页码）
 14. **约 800 字提炼**：连贯散文复述全文
 15. **思考问题**：3–5 个，分理解层 / 批判层 / 延伸层
-16. **覆盖自查表**：逐节点名核对；末尾附切换提示行
+16. **覆盖自查表**：逐节点名核对（参考文献行注明"追踪了哪些线索 → 第 9 节"）
+17. **待核清单**；末尾附切换提示行
 
 ### 轨 2 · 通读带读（摘要 + 关键段落 + 结论）
 
@@ -301,7 +302,7 @@ agent_created: true
 | 07 | [ch07-笔记批注与信息组织.md](chapters/ch07-笔记批注与信息组织.md) | 书目信息清单、笔记三区分、RCOS、批注优于高亮 | Booth、Shon |
 | 08 | [ch08-专著与理论文本精读.md](chapters/ch08-专著与理论文本精读.md) | 专著结构读、理论文本 ROA、找 GAP 三把尺子、概念界定四角度 | Booth、Shon、董晨宇 |
 | 09 | [ch09-引用规范与学术诚信.md](chapters/ch09-引用规范与学术诚信.md) | 四种引注体例、无意抄袭的四种情形、引用伦理 | Booth |
-| 10 | [ch10-精读报告模板.md](chapters/ch10-精读报告模板.md) | **轨 1 结构化速览模板**：0–16 节全文 + 填写规则 + 覆盖自查表 + 常见文档形态处理 | 综合；v1.5 起为轨 1 专用 |
+| 10 | [ch10-精读报告模板.md](chapters/ch10-精读报告模板.md) | **轨 1 结构化速览模板**：身份卡表格（含引用优先级）/ 核心观点 / 核心研究问题 / 作者脉络 / 研究设计六要点 / 关键发现 / 局限 / 创新 / 推荐阅读 + 填写规则 + 覆盖自查 | 综合；v1.7 重构节次 |
 | 11 | [ch11-读文献日课.md](chapters/ch11-读文献日课.md) | 三种文献三种阅读、跟随期刊/研究者/关键词、文献间三种关系、积极阅读十二字诀、笔记三原则、整理三目标 | 董晨宇 |
 | 12 | [ch12-导读层协议.md](chapters/ch12-导读层协议.md) | 导语写作（知识网络定位+作者谱系）、画像卡扫描、术语对照表、800 字提炼与思考问题、个性化资产对接 | v1.1 新增 |
 | 13 | [ch13-论文质量评价规则.md](chapters/ch13-论文质量评价规则.md) | **轨 3 质量评估**：理论贡献评价（Whetten 五要素+七问）、定量因果推断检查项（Gangl）、质性八项大帐篷标准（Tracy）、SRQR 21 条、评审者实际标准与学科差异（Lamont）、综合评分框架 | v1.3 新增 |
