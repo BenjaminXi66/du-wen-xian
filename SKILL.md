@@ -1,13 +1,13 @@
 ---
 name: renwen-sheke-du-wenxian
-version: 1.5.0
+version: 1.6.0
 display_name: 人文社科读文献
 display_name_en: Reading Literature in Humanities & Social Sciences
 category: research
 author: 社会学百宝库
-description: 人文社科（社会学为主）论文与专著的精读方法论与执行协议。当用户要求读、拆解、精读、分析一篇论文或一本专著（给 PDF/文本/DOI/引文）、带我通读摘要和关键段落、输出结构化阅读结果或评审意见时使用。**v1.5 起为三选一询问制**：本 skill 有三条功能——①输出结构化结果（快速了解文章及作者信息）；②通读论文（带读摘要、关键段落和结论，原文+译文+解析）；③评估论文质量（评审框架+检查表+修改优先级）。因上下文长度限制无法一次输出全部结果，**用户给出文献但未指明要哪条时，必须先输出三行菜单请其输入数字 1/2/3 再执行，一次只出一轨**；用户已明确指明（如"带我通读"="2"、"评审打分"="3"、"结构化速览"="1"）则直接执行不追问。内含三层精读法、阅读密码表（ROF/SPL/CPL/GAP/RAT/WTD/WTDD/RCL/RTC/RFW/POC/MOP/RPP/WIL）、论证五要素解剖（claim/reasons/evidence/warrant/acknowledgment&response）、定量论文精读十一条、质性研究质量评估（CASP 十问）、来源可信度十条、笔记批注与信息组织（RCOS）、引用规范与抄袭风险、学术术语中英文对照与分析（面向零背景读者）、约 800 字提炼与思考问题、基于使用者研究画像的个性化"对我可用的资产"。段落锚点 PID 体系（A摘要/I引言/L文献回顾/M研究设计/R实证/D讨论/O其他）用于轨间衔接与评审证据定位。零幻觉铁律：精读层严格限于所读文档既有内容；导读层外部信息须核实并明示来源。评审轨（轨3）按论文类型路由五大框架：理论贡献（Whetten 1989）、定量因果推断检查项（Gangl 2010）、质性研究八项大帐篷标准（Tracy 2010）、质性报告完整性 SRQR 21 条（O'Brien et al. 2014）、评审者实际评判标准与学科差异（Lamont 2009）；输出总评、分框架检查表、红线问题单、修改优先级清单（P0/P1/P2）。关键词：读论文、精读、拆论文、带我读、通读、领读、逐段讲、原文译文解析、摘要和关键段落、结构化输出、速览、快速了解、作者信息、文献阅读、论文笔记、精读报告、文献综述、阅读密码、批判性阅读、读文献、how to read a paper、close reading、评审、审稿、论文质量、评价论文、打分、reviewer、manuscript evaluation、SRQR、qualitative quality、causal inference、theoretical contribution。
-description_zh: 人文社科读文献。读、拆解、精读、分析论文或专著的执行协议（信息无损、零幻觉）：三层精读法 + 阅读密码表 + 论证五要素解剖 + 定量十一条 + 质性 CASP 十问 + 来源甄别 + 笔记组织 + 引用规范。v1.5 起**三选一询问制**：①结构化结果（快速了解文章及作者信息）②通读论文（带读摘要、关键段落和结论）③评估论文质量——因上下文限制一次只出一轨，用户未指明时先出菜单请其输入数字 1/2/3。评审按五大框架输出检查表与修改优先级（Whetten 理论贡献 / Gangl 因果推断 / Tracy 质性八标准 / SRQR 报告完整性 / Lamont 评审者视角）。
-description_en: 'Close-reading protocol for humanities & social science (esp. sociology) papers and monographs: three-pass method, reading codes (Shon), five-element argument anatomy (Booth), 11-step quantitative reading (Krippner), CASP 10-question appraisal, source evaluation, RCOS note organization, and citation integrity. Since v1.5 the skill offers THREE functions and asks the user to pick one per turn (input 1/2/3) due to context limits: (1) structured overview — quick grasp of the paper and its author; (2) guided reading — abstract, key passages and conclusion in source text + translation + analysis; (3) quality evaluation via Whetten (theoretical contribution), Gangl (causal inference), Tracy (8 big-tent qualitative criteria), SRQR (21 reporting standards), and Lamont (how reviewers actually judge). Never merge tracks in one turn; ask first when the user has not specified.'
+description: 人文社科（社会学为主）论文与专著的精读方法论与执行协议。当用户要求读、拆解、精读、分析一篇论文或一本专著（给 PDF/文本/DOI/引文）、带我通读摘要和关键段落、输出结构化阅读结果或评审意见时使用。**v1.6 起为强制三选一**：本 skill 有三条功能——①输出结构化结果（快速了解文章及作者信息）；②通读论文（带读摘要、关键段落和结论，原文+译文+解析）；③评估论文质量（评审框架+检查表+修改优先级）。**触发规则：只要本技能被加载并拿到要读的文献——无论用户什么都不输入、输入"速览该论文"、输入"带我读这篇论文"、还是输入其他任何话语——一律先输出三选一菜单，由用户亲自输入数字 1/2/3 选择，AI 不允许自动默认判断选哪种读论文方式**；一次只出一轨（上下文限制无法一次输出三个结果）。内含三层精读法、阅读密码表（ROF/SPL/CPL/GAP/RAT/WTD/WTDD/RCL/RTC/RFW/POC/MOP/RPP/WIL）、论证五要素解剖（claim/reasons/evidence/warrant/acknowledgment&response）、定量论文精读十一条、质性研究质量评估（CASP 十问）、来源可信度十条、笔记批注与信息组织（RCOS）、引用规范与抄袭风险、学术术语中英文对照与分析（面向零背景读者）、约 800 字提炼与思考问题、基于使用者研究画像的个性化"对我可用的资产"。段落锚点 PID 体系（A摘要/I引言/L文献回顾/M研究设计/R实证/D讨论/O其他）用于轨间衔接与评审证据定位。零幻觉铁律：精读层严格限于所读文档既有内容；导读层外部信息须核实并明示来源。轨3 按论文类型路由五大评审框架：理论贡献（Whetten 1989）、定量因果推断检查项（Gangl 2010）、质性研究八项大帐篷标准（Tracy 2010）、质性报告完整性 SRQR 21 条（O'Brien et al. 2014）、评审者实际评判标准与学科差异（Lamont 2009）；输出总评、分框架检查表、红线问题单、修改优先级清单（P0/P1/P2）。关键词：读论文、精读、拆论文、带我读、通读、领读、逐段讲、原文译文解析、摘要和关键段落、结构化输出、速览、快速了解、作者信息、文献阅读、论文笔记、精读报告、文献综述、阅读密码、批判性阅读、读文献、how to read a paper、close reading、评审、审稿、论文质量、评价论文、打分、reviewer、manuscript evaluation、SRQR、qualitative quality、causal inference、theoretical contribution。
+description_zh: 人文社科读文献。读、拆解、精读、分析论文或专著的执行协议（信息无损、零幻觉）：三层精读法 + 阅读密码表 + 论证五要素解剖 + 定量十一条 + 质性 CASP 十问 + 来源甄别 + 笔记组织 + 引用规范。**v1.6 强制三选一**：①结构化结果（快速了解文章及作者信息）②通读论文（带读摘要、关键段落和结论）③评估论文质量。无论用户输入什么（含"速览""带我读"）或不输入，拿到文献一律先出三选一菜单，由用户亲自输入数字 1/2/3 选择，AI 不自动判断；一次只出一轨。评审按五大框架输出检查表与修改优先级（Whetten 理论贡献 / Gangl 因果推断 / Tracy 质性八标准 / SRQR 报告完整性 / Lamont 评审者视角）。
+description_en: 'Close-reading protocol for humanities & social science (esp. sociology) papers and monographs: three-pass method, reading codes (Shon), five-element argument anatomy (Booth), 11-step quantitative reading (Krippner), CASP 10-question appraisal, source evaluation, RCOS note organization, and citation integrity. Since v1.6 the skill enforces a MANDATORY triage menu: whenever it loads with a paper — no matter whether the user types nothing, "give me a quick overview", "read it with me", or anything else — the AI must first output the three-option menu and wait for the user to manually pick 1/2/3: (1) structured overview — quick grasp of the paper and its author; (2) guided reading — abstract, key passages and conclusion in source text + translation + analysis; (3) quality evaluation via Whetten, Gangl, Tracy, SRQR, and Lamont. The AI must NEVER auto-select a reading mode; one track per turn due to context limits.'
 agent_created: true
 ---
 
@@ -15,9 +15,9 @@ agent_created: true
 
 # 人文社科读文献
 
-## 使用入口：三选一（先问后做）
+## 使用入口：强制三选一（任何输入一律先弹菜单）
 
-本技能有**三条功能轨**。**用户给出文献但未指明要哪条轨时，必须先原样输出下面的菜单，然后停止、等待用户输入数字——不得自行猜测，不得合并输出。**
+本技能有**三条功能轨**。**触发规则：只要本技能被加载并拿到要读的文献——无论用户什么都不输入、输入"速览该论文"、输入"带我读这篇论文"、还是输入其他任何话语——一律先原样输出下面的菜单，然后停止、等待用户亲自输入数字。AI 不允许自动默认判断选哪种读论文方式；即使用户的话看起来已经指向某条轨（如"速览""带我读"），也只允许把这句话附在菜单后告知用户"听起来像第 X 条，请输入数字确认"，不得直接开做。**
 
 > 本 skill 具有三条功能：
 > **1、输出结构化的结果**——快速了解文章及作者信息（导语 + 身份卡 + 核心主张 + 论证链条 + 发现 + 术语 + 800 字提炼）
@@ -26,22 +26,25 @@ agent_created: true
 >
 > 由于上下文长度限制，无法一次性输出三个结果，因此由你决定这次先看哪个：**输入数字（1 / 2 / 3）得到相应回答**。也可连选（如"2，然后 3"），将分轮逐轨交付。
 
-**路由规则**：
-| 用户怎么说 | 行为 |
+**输入情形处理**：
+| 用户输入 | 行为 |
 |---|---|
-| 只给了文献，没说要什么 | **只发上面的菜单，停下等数字**（询问门） |
-| "通读 / 带我读 / 领读 / 读摘要和关键段落 / 逐段讲" | 直接触发**轨 2**，不再追问 |
-| "结构化 / 速览 / 快速了解 / 作者信息 / 概览" | 直接触发**轨 1** |
-| "评审 / 审稿 / 打分 / 研判质量 / 修改意见" | 直接触发**轨 3** |
-| 明确连选两条以上（"1 和 3"） | 分轮执行：本轮只出先提到的那一轨，轨末提示"输入下一轨数字继续" |
-| "只看方法 / 只回答某问题" | 按所指轨次执行，但只覆盖相关部分，**须声明省略了哪些部分** |
+| 什么都不输入（只加载技能、只给文献） | **发菜单，停下等数字** |
+| "速览该论文" / "快速了解" / "作者信息" | 发菜单，可附一句"听起来像第 1 条，输入 1 确认"；**不得直接做** |
+| "带我读这篇论文" / "通读" / "领读" | 发菜单，可附"听起来像第 2 条，输入 2 确认"；**不得直接做** |
+| "评审 / 打分 / 研判质量" | 发菜单，可附"听起来像第 3 条，输入 3 确认"；**不得直接做** |
+| 输入其他任何话语 | 发菜单，停下等数字 |
+| 用户输入数字 1 / 2 / 3 | 执行对应轨（一次只出一轨） |
+| 用户连选（"2，然后 3"） | 先出先提到的轨，轨末提示"输入下一轨数字继续" |
+| 同一文献已选定轨次后的追问 | 按当前轨继续正常执行，不再重复弹菜单 |
+| 换了一篇新文献 | **重新弹菜单** |
 
 **每轨交付完毕，末尾固定附一行切换提示**：
 `——本轨完成。输入 1 / 2 / 3 可切换其他视角；已读内容不会重复输出，轨 2 的段落锚点会被轨 1 / 轨 3 直接引用。——`
 
 **方法来源**：Wayne C. Booth 等《The Craft of Research》(4th ed.)、Phillip C. Shon《会读才会写：导向论文写作的文献阅读技巧》、S. Keshav《How to Read a Paper》、Frederique Laubepin《How to Read (and Understand) a Social Science Journal Article》、Greta Krippner《How to Read a (Quantitative) Journal Article》(ASA)、CASP Qualitative Checklist (2024)、董晨宇《拆论文：从精读中领悟学术写作》；轨 3 评审框架新增：David A. Whetten "What Constitutes a Theoretical Contribution?" (AMR 1989)、Markus Gangl "Causal Inference in Sociological Research" (ARS 2010)、Sarah J. Tracy "Qualitative Quality: Eight 'Big-Tent' Criteria" (QI 2010)、O'Brien et al. "Standards for Reporting Qualitative Research" (Academic Medicine 2014, SRQR)、Michele Lamont《How Professors Think》(Harvard UP 2009)。
 **完整书目与取材映射**：[references/sources.md](references/sources.md)
-**交付形态（v1.5）**：ch14 三轨交付协议为本技能自设规范（三选一询问门、段落锚点 PID 轨间衔接、分册），非外部文献主张；它不新增方法论，只保证三条轨各自完整、可切换、不重复输出。
+**交付形态（v1.6）**：ch14 三轨交付协议为本技能自设规范（强制三选一菜单、段落锚点 PID 轨间衔接、分册），非外部文献主张；它不新增方法论，只保证三条轨各自完整、可切换、不重复输出。
 
 ---
 
@@ -79,10 +82,10 @@ agent_created: true
    - 只陈述**可核实的谱系事实**（谁师从谁、属于哪个传统、与谁论战）；**不得揣测作者动机**，不得对文献做无依据的定性。
    - 不确定之处照实标注 `[待核：<具体不确定什么>]`。
 
-### 铁律五：三轨分立 —— 一次一轨，先问后做（v1.5 新增）
+### 铁律五：三轨分立 —— 强制三选一，AI 不代选（v1.6 修订）
 1. **每轮只执行一条轨**：①结构化速览 / ②通读带读 / ③质量评估。三条轨**不得在同一轮合并输出**——这是对上下文长度的硬性适配，不是功能取舍。
-2. **询问门**：用户给出文献但未指明轨次时，必须先输出标准菜单（见"使用入口"）并停止，等用户报数字后再动工。**不问就做 = 违规；一次做两轨 = 违规。**
-3. **指明即执行**：用户的话已能明确映射到某轨（"带我通读"=2、"评审打分"=3、"结构化速览"=1）时，直接执行该轨，不再追问菜单。
+2. **强制菜单**：技能加载并拿到文献后，**无论用户输入什么（含"速览""带我读"等看似已定向的话）或不输入，一律先输出标准菜单（见"使用入口"）并停止，等用户亲自报数字**。**不问就做 = 违规；用户已定向却直接开做 = 违规；一次做两轨 = 违规。**
+3. **AI 不代选**：即使用户话语明显指向某轨，最多在菜单后附一句"听起来像第 X 条，输入 X 确认"，**选择权始终在用户手里**。唯一例外：同一文献用户已选定轨次后的追问，按当前轨继续，不重复弹菜单；换新文献则重新弹菜单。
 4. **轨间用 PID 衔接，不重复输出**：轨 2 领读时给每段打段落锚点 PID（`[R-03 · p.812]`）；之后切到轨 1 或轨 3 时，直接回指这些 PID（如 `→[R-03]`），已领读的原文不重复抄写，评审证据直接挂 PID。
 5. **单轨仍然过长 → 按 ch14 分册**，不得砍内容、不得为省篇幅混入其他轨。各轨完整章程：轨 1 → ch10；轨 2 → "全文领读协议" + ch14；轨 3 → ch13。
 
@@ -149,9 +152,9 @@ agent_created: true
 
 ---
 
-## 轨 3：论文质量评估（触发词：评审、审稿、打分、研判稿件质量、修改意见）
+## 轨 3：论文质量评估（用户输入数字 3 后执行）
 
-用户要求**评价、评审、打分一篇论文/稿件**时执行本轨（即三选一菜单中的 **3**），协议见 [ch13](chapters/ch13-论文质量评价规则.md)。本轮**只出评审报告**，不合并领读或结构化速览（铁律五）；每条批评必须落到论文具体位置（页码或 `→[PID · p.X]`）。
+用户在菜单中选择 **3** 后执行本轨，协议见 [ch13](chapters/ch13-论文质量评价规则.md)。本轮**只出评审报告**，不合并领读或结构化速览（铁律五）；每条批评必须落到论文具体位置（页码或 `→[PID · p.X]`）。
 
 1. **定类型选框架**（按 ch13.0 路由表）：理论/概念论文 → Whetten (1989) 五要素 + 七问；定量实证论文 → Gangl (2010) 因果推断检查项；质性实证论文 → Tracy (2010) 八项大帐篷标准 + SRQR 21 条报告完整性。
 2. **逐条检查落实位置**：框架每一条都在论文中找落实位置（页码）；找不到记"未落实"，不得编造（铁律一全强度适用）。对被评论文的每条批评必须落到具体位置；框架本身注明来源。
@@ -241,9 +244,9 @@ agent_created: true
 
 ---
 
-## 三轨交付物骨架（v1.5：按用户所选数字，每轮输出其一）
+## 三轨交付物骨架（按用户所选数字，每轮输出其一）
 
-> **v1.5 变更**：v1.4 的"双轨同出"在真实使用中超出单次输出容量，改为**三选一询问制**：先出菜单，用户报数字，一次一轨；轨间用 PID 衔接避免重复输出。机制细节见 [ch14](chapters/ch14-三轨交付协议.md)。
+> **v1.5 变更**：v1.4 的"双轨同出"在真实使用中超出单次输出容量，改为**三选一询问制**：先出菜单，用户报数字，一次一轨；轨间用 PID 衔接避免重复输出。**v1.6 修订**：升级为**强制三选一**——无论用户输入什么（含"速览""带我读"等）或不输入，一律先弹菜单，AI 不代选；仅同一文献已选轨后的追问与连选续轮例外。机制细节见 [ch14](chapters/ch14-三轨交付协议.md)。
 
 ### 轨 1 · 结构化速览（快速了解文章及作者信息；模板全文见 [ch10](chapters/ch10-精读报告模板.md)）
 
@@ -301,8 +304,8 @@ agent_created: true
 | 10 | [ch10-精读报告模板.md](chapters/ch10-精读报告模板.md) | **轨 1 结构化速览模板**：0–16 节全文 + 填写规则 + 覆盖自查表 + 常见文档形态处理 | 综合；v1.5 起为轨 1 专用 |
 | 11 | [ch11-读文献日课.md](chapters/ch11-读文献日课.md) | 三种文献三种阅读、跟随期刊/研究者/关键词、文献间三种关系、积极阅读十二字诀、笔记三原则、整理三目标 | 董晨宇 |
 | 12 | [ch12-导读层协议.md](chapters/ch12-导读层协议.md) | 导语写作（知识网络定位+作者谱系）、画像卡扫描、术语对照表、800 字提炼与思考问题、个性化资产对接 | v1.1 新增 |
-| 13 | [ch13-论文质量评价规则.md](chapters/ch13-论文质量评价规则.md) | 评审模式：理论贡献评价（Whetten 五要素+七问）、定量因果推断检查项（Gangl）、质性八项大帐篷标准（Tracy）、SRQR 21 条、评审者实际标准与学科差异（Lamont）、综合评分框架 | v1.3 新增 |
-| 14 | [ch14-三轨交付协议.md](chapters/ch14-三轨交付协议.md) | **交付形态**：三选一询问门（菜单标准文案 + 路由表 + 违规形态）、一次一轨、段落锚点 PID 轨间衔接、各轨收尾规范、长文档分册、各轨自查清单 | v1.5 重写（原 v1.4 双轨同出） |
+| 13 | [ch13-论文质量评价规则.md](chapters/ch13-论文质量评价规则.md) | **轨 3 质量评估**：理论贡献评价（Whetten 五要素+七问）、定量因果推断检查项（Gangl）、质性八项大帐篷标准（Tracy）、SRQR 21 条、评审者实际标准与学科差异（Lamont）、综合评分框架 | v1.3 新增 |
+| 14 | [ch14-三轨交付协议.md](chapters/ch14-三轨交付协议.md) | **交付形态**：强制三选一菜单（标准文案 + 输入情形处理表 + 违规形态）、一次一轨、段落锚点 PID 轨间衔接、各轨收尾规范、长文档分册、各轨自查清单 | v1.6 修订（原 v1.5 三轨/v1.4 双轨） |
 
 ## 支撑文件
 - [glossary.md](glossary.md) — 术语与密码速查
