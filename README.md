@@ -42,10 +42,6 @@
 └── cheatsheet.md         # 决策规则与阈值速查
 ```
 
-## 方法来源
-
-Wayne C. Booth 等《The Craft of Research》(4th ed.)、Phillip C. Shon《会读才会写》、S. Keshav《How to Read a Paper》、Frederique Laubepin《How to Read (and Understand) a Social Science Journal Article》、Greta Krippner《How to Read a (Quantitative) Journal Article》(ASA)、CASP Qualitative Checklist (2024)、董晨宇《拆论文》；v1.3 评审模式新增：Whetten (AMR 1989)、Gangl (ARS 2010)、Tracy (QI 2010)、O'Brien et al. (SRQR, Academic Medicine 2014)、Lamont《How Professors Think》(Harvard UP 2009)。完整书目见 [references/sources.md](references/sources.md)。
-
 ## 许可证
 
 [MIT](LICENSE)
